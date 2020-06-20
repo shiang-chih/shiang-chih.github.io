@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Della+Respira&family=Joti+One&family=Neuton:wght@700&family=Noto+Sans+TC&family=Raleway:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+.top{
+    height: 100vh;
+    width: calc(100%);
+     vertical-align: center;
+     text-align: center;
+     background-image:url(../images/bg3.jpg);
+     background-position: 0px -100px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     font-size: 100px;
+     text-shadow: 5px 5px black;
+     font-family: 'Bungee Shade', cursive;
+     animation-name: an1;
+     animation-duration: 3.5s;
+     animation-iteration-count: 1;
+     color: #ffffff;
+  }
+  @keyframes an1{
+    0%{
+      top: 100px;
+      opacity: 0%
+    }
+
+    100%{
+      top: 250px;
+      opacity: 100%;
+    }
+  }
+.music{
+    opacity: 0.8;
+    position: absolute;
+    margin-top: -570px;
+    margin-left: 20px; 
+    margin-bottom: 0px;
+    margin-right: 0px; 
+  }
+.gototop{
+    background-color: #69248a;
+    padding:10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    border-radius: 30px 30px 30px 30px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-family: 'Della Respira', serif;
+    border-color: rgb(158, 110, 192);
+    border-style: solid;
+    border-width: 2px;
+  }
+  .goback{
+    font-size: 20px;
+  }
+  .select:hover .goback{
+    font-size: 22px;
+  }
+  .gb img{
+    position: fixed;
+    margin-right: 200px;
+    width: 150px;
+    right: 0;
+    bottom: 5px;
+    margin-right: 20px;
+  }
+  .all{
+    position: relative;
+    /* height: 100vh; */
+    background-image:url(../images/bg2.jpg);
+    width: calc(100%);
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    background-size:contain;
+    background-attachment: fixed;
+  }
+  .photo{
+    position: relative;
+    width: calc((112%) / 6);
+    height: 230px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: inline-block;
+  }
+  .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .photo:hover{
+    transition-duration: 900ms;
+    /* transition: all 1.5s; */
+    height: 230px;
+  }
+  .photo .cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .photo:hover .cover{
+    margin-left: -10px;
+    margin-top: -10px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(11, 6, 41);
+    opacity: 0.9;
+    border-style: solid;
+    border-color: rgb(156, 126, 212);
+    border-radius: 10px 10px 10px 10px;
+    border-width: 10px;
+  }
+  .photo .content{
+    transition: all 1.5s;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(248, 255, 209);
+    margin-top: 32vh;
+    width: 100%;
+  }
+  .photo:hover .content{
+    transition: all 1s;
+    display:block;
+    position: absolute;
+    width: 100%;
+    margin-top: 10vh;
+    color: rgb(248, 255, 209);
+    text-shadow: 1px 1px 15px rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
